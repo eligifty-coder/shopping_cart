@@ -1,0 +1,15 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.products{
+   width: 40%;
+   margin: 10px;
+}
+@media (max-width: 771px) {
+
+  .products {
+    width: 100%;
+  }
+}

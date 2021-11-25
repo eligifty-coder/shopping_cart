@@ -1,0 +1,35 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.home{
+   display: flex;
+}
+.productContainer{
+   display: flex;
+   width: 100%;
+   /* padding: 20px; */
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.filters{
+   background-color: #343140;
+   color: #fff;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   margin: 10px;
+   height: 86vh;
+}
+.filters > span{
+   padding-bottom: 20px;
+}
+.title{
+   font-size: 30px;
+}
+.summary{
+   width: 30%;
+}

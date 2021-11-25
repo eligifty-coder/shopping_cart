@@ -1,0 +1,42 @@
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+.cartItem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 20px;
+
+	margin-bottom: 20px;
+}
+.cartItemImg {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+}
+.caertItemDetail {
+	flex: 1;
+	display: flex;
+	padding: 0 20px;
+	flex-direction: column;
+	width: 100%;
+}
+.anchor {
+	color: #fff !important;
+	display: block;
+	width: 95% !important;
+	margin: 0 auto;
+	text-align: center;
+	background: blue;
+   padding: 0 10px;
+   margin-bottom: 10px;
+}
+@media (max-width: 771px) {
+
+  .search {
+    display: none !important;
+  }
+
+}

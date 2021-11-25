@@ -1,0 +1,15 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.home{
+   display: flex;
+}
+.productContainer{
+   display: flex;
+   width: 100%;
+   /* padding: 20px; */
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
